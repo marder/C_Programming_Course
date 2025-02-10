@@ -14,7 +14,7 @@ int main()
         }
     }
 
-    printf("%d", smallest);
+    printf("%d\n", smallest);
 
     return 0;
 }
