@@ -20,11 +20,11 @@ int main()
     char str2[] = "abcd";
     char str3[] = "abcd";
 
-    //non-zero strings are not equal
+    // non-zero strings are not equal
     int result = strcmp(str1, str2);
     printf("%d\n", result);
 
-    //0 - strings are equal
+    // 0 - strings are equal
     result = strcmp(str2, str3);
     printf("%d\n", result);
 
